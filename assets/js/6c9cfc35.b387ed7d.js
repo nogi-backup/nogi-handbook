@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknogi_handbook=self.webpackChunknogi_handbook||[]).push([[8615],{3543:o=>{o.exports=JSON.parse('{"permalink":"/nogi-handbook/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
