@@ -17,7 +17,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nogi-backup', // Usually your GitHub org/user name.
   projectName: 'nogi-handbook', // Usually your repo name.
-  deploymentBranch: 'main',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
