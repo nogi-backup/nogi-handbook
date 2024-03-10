@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknogi_handbook=self.webpackChunknogi_handbook||[]).push([[1796],{2682:o=>{o.exports=JSON.parse('{"label":"hola","permalink":"/nogi-handbook/blog/tags/hola","allTagsPath":"/nogi-handbook/blog/tags","count":1,"unlisted":false}')}}]);
