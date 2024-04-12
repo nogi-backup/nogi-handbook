@@ -85,7 +85,7 @@ const config: Config = {
           items: [
             {
               label: 'Calls',
-              to: '/docs/call',
+              to: '/docs/category/call',
             },
           ],
         },
