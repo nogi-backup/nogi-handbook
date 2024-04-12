@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Overture'
+sidebar_position: 1
 tag: [
     "nogizaka46", "乃木坂46",
     "call", "コール",

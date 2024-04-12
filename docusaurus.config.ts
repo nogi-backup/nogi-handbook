@@ -70,7 +70,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'callsSidebar',
           position: 'left',
           label: 'Calls',
         },
@@ -84,8 +84,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Calls',
+              to: '/docs/call',
             },
           ],
         },

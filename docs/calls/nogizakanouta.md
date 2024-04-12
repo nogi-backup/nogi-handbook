@@ -1,5 +1,6 @@
 ---
 sidebar_label: '乃木坂の詩'
+sidebar_position: 2
 tag: [
     "nogizaka46", "乃木坂46",
     "call", "コール",
