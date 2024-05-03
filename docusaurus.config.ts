@@ -101,10 +101,9 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Infozaka46, Inc. Built with Docusaurus.`,
     },
-    //    prism: {
-    //      theme: prismThemes.github,
-    //      darkTheme: prismThemes.dracula,
-    //    },
+    metadata: [
+      { name: 'keywords', content: 'nogizaka46, n46, 乃木坂46, 乃木坂, 46' },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
