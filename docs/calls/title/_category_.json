@@ -1,5 +1,5 @@
 {
-  "label": "標題曲",
+  "label": "標題曲(Title)",
   "link": {
     "type": "generated-index",
     "description": "The all title songs' call"

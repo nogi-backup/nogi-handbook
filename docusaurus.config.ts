@@ -74,7 +74,8 @@ const config: Config = {
           position: 'left',
           label: 'Calls',
         },
-        { to: '/blog', label: 'Blog', position: 'left' }
+        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/gallery', label: 'Gallery', position: 'right' }
       ],
     },
     footer: {
