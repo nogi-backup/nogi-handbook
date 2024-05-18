@@ -1,4 +1,3 @@
-import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
@@ -6,13 +5,11 @@ const config: Config = {
   title: 'Infozaka46',
   tagline: '努力、感謝、笑顔 うちらは乃木坂上り坂46！',
   favicon: 'img/favicon.ico',
-
   // Set the production url of your site here
   url: 'https://book.infozaka46.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
@@ -28,17 +25,18 @@ const config: Config = {
     defaultLocale: 'zh-Hant-HK',
     locales: ['zh-Hant-HK'],
   },
-
   presets: [
     [
       'classic',
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        blog: {
+          blogDescription: 'Page made by a group of Hong Kong Nogizaka46 fans',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 3,
         },
         gtag: {
           trackingID: 'G-X8NBKKTJ0H',
@@ -52,14 +50,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Infozaka46',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
       items: [
         {
           type: 'docSidebar',
@@ -67,30 +60,12 @@ const config: Config = {
           position: 'left',
           label: 'Calls',
         },
+        { to: '/blog', label: 'Gallery', position: 'left' },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Calls',
-              to: '/docs/category/call',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/nogi46hk',
-            },
-          ],
-        },
-      ],
+      links: [],
       copyright: `Copyright © ${new Date().getFullYear()} Infozaka46, Inc. Built with Docusaurus.`,
     },
     metadata: [
