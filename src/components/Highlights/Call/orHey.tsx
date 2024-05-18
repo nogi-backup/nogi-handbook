@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SuperCuteCall({ name }) {
+export default function OrHey({ children, count }) {
     return (
         <span
             style={{
@@ -8,7 +8,7 @@ export default function SuperCuteCall({ name }) {
                 borderRadius: '2px',
                 color: '#FFFFFF',
             }}>
-            {"超絶可愛い！" + (name ? name : "〇〇") + "!"}
+            {"お～ハイ x" + count}
         </span>
     );
 }

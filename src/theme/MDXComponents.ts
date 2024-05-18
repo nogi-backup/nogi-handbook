@@ -3,15 +3,23 @@ import React from 'react';
 import MDXComponents from '@theme-original/MDXComponents';
 import YouTubeCard from '@site/src/components/Highlights/youtubeCard';
 import SpotifyCard from '@site/src/components/Highlights/spotifyCard';
+import BilibiliCard from '@site/src/components/Highlights/bilibiliCard';
 import Call from '@site/src/components/Highlights/Call/call';
-import NickNameCall from '@site/src/components/Highlights/Call/nickName';
-import SuperCuteCall from '@site/src/components/Highlights/Call/superCuteCall';
+import NickName from '@site/src/components/Highlights/Call/nickName';
+import SuperCute from '@site/src/components/Highlights/Call/superCute';
+import Hey from '@site/src/components/Highlights/Call/hey';
+import OrHey from '@site/src/components/Highlights/Call/orHey';
+import Wow from '@site/src/components/Highlights/Call/wow';
 
 export default {
     ...MDXComponents,
     Call,
     YouTubeCard,
     SpotifyCard,
-    NickNameCall,
-    SuperCuteCall
+    NickName,
+    SuperCute,
+    Wow,
+    Hey,
+    OrHey,
+    BilibiliCard
 };

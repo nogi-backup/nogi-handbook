@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function NickName({ name }) {
+export default function Wow({ count }) {
     return (
         <span
             style={{
@@ -8,7 +8,7 @@ export default function NickName({ name }) {
                 borderRadius: '2px',
                 color: '#FFFFFF',
             }}>
-            {name ? name + "!" : "〇〇！"}
+            {"Wow x" + count}
         </span>
     );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function NickName({ name }) {
+export default function SuperCute({ name }) {
     return (
         <span
             style={{
@@ -8,7 +8,7 @@ export default function NickName({ name }) {
                 borderRadius: '2px',
                 color: '#FFFFFF',
             }}>
-            {name ? name + "!" : "〇〇！"}
+            {"超絶可愛い！" + (name ? name : "〇〇") + "!"}
         </span>
     );
 }
