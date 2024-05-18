@@ -9,17 +9,19 @@ import NickName from '@site/src/components/Highlights/Call/nickName';
 import SuperCute from '@site/src/components/Highlights/Call/superCute';
 import Hey from '@site/src/components/Highlights/Call/hey';
 import OrHey from '@site/src/components/Highlights/Call/orHey';
+import OrReMo from '@site/src/components/Highlights/Call/orReMo';
 import Wow from '@site/src/components/Highlights/Call/wow';
 
 export default {
     ...MDXComponents,
     Call,
-    YouTubeCard,
+    BilibiliCard,
     SpotifyCard,
+    YouTubeCard,
     NickName,
     SuperCute,
     Wow,
     Hey,
     OrHey,
-    BilibiliCard
+    OrReMo
 };
