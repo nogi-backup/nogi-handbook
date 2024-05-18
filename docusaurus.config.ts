@@ -5,7 +5,6 @@ const config: Config = {
   title: 'Infozaka46',
   tagline: '努力、感謝、笑顔 うちらは乃木坂上り坂46！',
   favicon: 'img/favicon.ico',
-  // Set the production url of your site here
   url: 'https://book.infozaka46.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -17,14 +16,12 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  staticDirectories: ['assets', 'static'],
   i18n: {
     defaultLocale: 'zh-Hant-HK',
     locales: ['zh-Hant-HK'],
   },
+
   presets: [
     [
       'classic',
@@ -53,6 +50,11 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Infozaka46',
+      logo: {
+        alt: 'Logo',
+        src: 'img/infozaka46.png',
+        height: 200
+      },
       items: [
         {
           type: 'docSidebar',

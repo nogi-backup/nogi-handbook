@@ -1,10 +1,13 @@
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import images from './galleryImages.json';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -22,6 +25,39 @@ function HomepageHeader() {
 }
 
 
+function Gallery() {
+
+  const posters = [
+    require('../../assets/posters/20230918-nao.jpg').default,
+    require('../../assets/posters/20231030-satsuki.jpg').default,
+    require('../../assets/posters/20240507-mitsuki-graduation.jpg').default,
+    require('../../assets/posters/20240829-seira.jpg').default
+  ]
+
+  const settings = {
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerMode: true,
+    centerPadding: "60px",
+    className: "center",
+    dots: true,
+    infinite: true,
+    lazyLoad: true,
+    row: 1,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    variableWidth: true
+  };
+  return (
+    <Slider {...settings}>
+      {posters.map((image, index) =>
+        <div key={"poster" + { index }}>
+          <img src={image} alt="gallery" height={400} />
+        </div>
+      )
+      }
+    </Slider >);
+}
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -31,7 +67,8 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+        <Gallery />
       </main>
-    </Layout>
+    </Layout >
   );
 }
