@@ -37,15 +37,16 @@ function Gallery() {
   const settings = {
     autoplay: true,
     autoplaySpeed: 2000,
+    adaptiveHeight: false,
     centerMode: true,
-    centerPadding: "60px",
     className: "center",
     dots: true,
     infinite: true,
     lazyLoad: true,
     row: 1,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
+    swipeToSlide: true,
     variableWidth: true
   };
   return (
