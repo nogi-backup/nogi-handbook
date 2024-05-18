@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CallHighlight({ children }) {
+export default function NickNameCall({ name }) {
     return (
         <span
             style={{
@@ -8,7 +8,7 @@ export default function CallHighlight({ children }) {
                 borderRadius: '2px',
                 color: '#FFFFFF',
             }}>
-            {children}
+            {name ? name + "!" : "〇〇！"}
         </span>
     );
 }
