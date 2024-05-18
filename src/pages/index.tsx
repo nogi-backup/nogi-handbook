@@ -28,10 +28,14 @@ function HomepageHeader() {
 function Gallery() {
 
   const posters = [
-    require('../../assets/posters/20230918-nao.jpg').default,
-    require('../../assets/posters/20231030-satsuki.jpg').default,
-    require('../../assets/posters/20240507-mitsuki-graduation.jpg').default,
-    require('../../assets/posters/20240829-seira.jpg').default
+    require('../../assets/posters/20190122-shinuchi-mai.jpg').default,
+    require('../../assets/posters/20190331-eto-misa.jpg').default,
+    require('../../assets/posters/20190831-sakurai-reika.jpg').default,
+    require('../../assets/posters/20200808-haruka-kaki.jpg').default,
+    require('../../assets/posters/20230918-tomisato-nao.jpg').default,
+    require('../../assets/posters/20231030-sugawara-satsuki.jpg').default,
+    require('../../assets/posters/20240507-yamashita-mizuki.jpg').default,
+    require('../../assets/posters/20240829-hayakawa-seira.jpg').default
   ]
 
   const settings = {
@@ -53,7 +57,7 @@ function Gallery() {
     <Slider {...settings}>
       {posters.map((image, index) =>
         <div key={"poster" + { index }}>
-          <img src={image} alt="gallery" height={400} />
+          <img src={image} alt="gallery" height={500} />
         </div>
       )
       }
