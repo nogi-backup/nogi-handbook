@@ -8,7 +8,7 @@ export default function OrHey({ children, count }) {
                 borderRadius: '2px',
                 color: '#FFFFFF',
             }}>
-            {"お～ハイ x" + count}
+            {"お～ハイ" + (count ? "x" + count : "") + "!"}
         </span>
     );
 }
