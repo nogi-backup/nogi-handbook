@@ -8,6 +8,7 @@ import Call from '@site/src/components/Highlights/Call/call';
 import NickName from '@site/src/components/Highlights/Call/nickName';
 import SuperCute from '@site/src/components/Highlights/Call/superCute';
 import Hey from '@site/src/components/Highlights/Call/hey';
+import OrFu from '@site/src/components/Highlights/Call/orFu';
 import OrHey from '@site/src/components/Highlights/Call/orHey';
 import OrReMo from '@site/src/components/Highlights/Call/orReMo';
 import Wow from '@site/src/components/Highlights/Call/wow';
@@ -22,6 +23,7 @@ export default {
     SuperCute,
     Wow,
     Hey,
+    OrFu,
     OrHey,
     OrReMo
 };

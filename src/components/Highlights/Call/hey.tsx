@@ -8,7 +8,7 @@ export default function Hey({ children, count }) {
                 borderRadius: '2px',
                 color: '#FFFFFF',
             }}>
-            {"ハイ" + (count ? "x" + count : "") + "!"}
+            {"Hey " + (count ? "x" + count : "") + "!"}
         </span>
     );
 }
