@@ -33,6 +33,7 @@ function Gallery() {
     require('../../assets/posters/20190831-sakurai-reika.jpg').default,
     require('../../assets/posters/20200808-haruka-kaki.jpg').default,
     require('../../assets/posters/20230918-tomisato-nao.jpg').default,
+    require('../../assets/posters/20230517-saitou-asuka.jpg').default,
     require('../../assets/posters/20231030-sugawara-satsuki.jpg').default,
     require('../../assets/posters/20240507-yamashita-mizuki.jpg').default,
     require('../../assets/posters/20240829-hayakawa-seira.jpg').default

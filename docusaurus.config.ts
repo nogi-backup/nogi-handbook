@@ -52,8 +52,9 @@ const config: Config = {
       title: 'Infozaka46',
       logo: {
         alt: 'Logo',
-        src: 'img/infozaka46.png',
-        height: 200
+        src: 'img/logo_light.jpg',
+        srcDark: 'img/logo_dark.jpg',
+        height: 300
       },
       items: [
         {
