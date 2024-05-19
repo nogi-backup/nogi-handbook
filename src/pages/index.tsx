@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import images from './galleryImages.json';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -32,22 +31,23 @@ function Gallery() {
     require('../../assets/posters/20190331-eto-misa.jpg').default,
     require('../../assets/posters/20190831-sakurai-reika.jpg').default,
     require('../../assets/posters/20200808-haruka-kaki.jpg').default,
-    require('../../assets/posters/20230918-tomisato-nao.jpg').default,
     require('../../assets/posters/20230517-saitou-asuka.jpg').default,
+    require('../../assets/posters/20230829-hayakawa-seira.jpg').default,
+    require('../../assets/posters/20230918-tomisato-nao.jpg').default,
     require('../../assets/posters/20231030-sugawara-satsuki.jpg').default,
     require('../../assets/posters/20240507-yamashita-mizuki.jpg').default,
-    require('../../assets/posters/20240829-hayakawa-seira.jpg').default
   ]
 
   const settings = {
     autoplay: true,
     autoplaySpeed: 2000,
-    adaptiveHeight: false,
+    adaptiveHeight: true,
     centerMode: true,
+    centerPadding: '50px',
     className: "center",
+    cssEase: 'linear',
     dots: true,
     infinite: true,
-    lazyLoad: true,
     row: 1,
     slidesToShow: 1,
     slidesToScroll: 1,
