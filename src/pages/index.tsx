@@ -39,12 +39,10 @@ function Gallery() {
   ]
 
   const settings = {
+    adaptiveHeight: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    adaptiveHeight: true,
     centerMode: true,
-    centerPadding: '50px',
-    className: "center",
     cssEase: 'linear',
     dots: true,
     infinite: true,
@@ -58,7 +56,7 @@ function Gallery() {
     <Slider {...settings}>
       {posters.map((image, index) =>
         <div key={"poster" + { index }}>
-          <img src={image} alt="gallery" height={500} />
+          <img src={image} alt="gallery" height={300} />
         </div>
       )
       }
