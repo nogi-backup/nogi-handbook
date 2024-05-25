@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Infozaka46',
   tagline: '努力、感謝、笑顔 うちらは乃木坂上り坂46！',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo_light.jpg',
   url: 'https://book.infozaka46.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -47,7 +47,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.png',
     navbar: {
       title: 'Infozaka46',
       logo: {
