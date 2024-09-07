@@ -36,6 +36,7 @@ function Gallery() {
     require('../../assets/posters/20230918-tomisato-nao.jpg').default,
     require('../../assets/posters/20231030-sugawara-satsuki.jpg').default,
     require('../../assets/posters/20240507-yamashita-mizuki.jpg').default,
+    require('../../assets/posters/20240820-okuda-iroha.jpg').default,
   ]
 
   const settings = {
