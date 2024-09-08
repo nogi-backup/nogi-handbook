@@ -379,7 +379,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '2nd 走れ!Bicycle',
+          label: '2nd おいでシャンプー',
           link: {
             'type': 'generated-index',
           },
